@@ -178,9 +178,9 @@ unsetenv
 Usage: unsetenv [VARIABLE]
 Removes an environmental variable.
 Upon failure, prints a message to stderr. Example:
-$ ./hsh $ setenv NAME Poppy $ unsetenv NAME $ echo $NAME
+ ./hsh $ setenv NAME Poppy $ unsetenv NAME $ echo $NAME
 
-$
+
 
 What we learned:
 How a shell works and finds commands
@@ -188,7 +188,8 @@ Creating, forking and working with processes
 Executing a program from another program
 Handling dynamic memory allocation in a large program
 Pair programming and team work
-Building a test suite to check our own code
+Building a test suite to check our own code.
+
 Authors
 Adili Adaeze Chioma - adiliadaeze@gmail.com
 Charles Onah - charlesonah023@gmail.com
